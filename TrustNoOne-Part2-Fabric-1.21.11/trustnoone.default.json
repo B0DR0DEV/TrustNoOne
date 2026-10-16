@@ -1,0 +1,48 @@
+{
+  "lives": {
+    "startingLives": 3,
+    "partnerHealthLoss": 2,
+    "reviveHealth": 2,
+    "reviveTicks": 40,
+    "singleplayerTestingMode": true,
+    "reviveLookDot": 0.72
+  },
+  "imposter": {
+    "enabled": true,
+    "spawnIntervalTicks": 1200,
+    "spawnChancePercent": 18,
+    "minDistance": 12,
+    "maxDistance": 26,
+    "noticeDot": 0.94,
+    "openDoors": true,
+    "copyCrouchingAndSprinting": true,
+    "copyJumping": true,
+    "despawnDistance": 160,
+    "huntDelayTicks": 240,
+    "fakeEatDurationTicks": 32
+  },
+  "names": {
+    "hidePlayerNames": true,
+    "hideImposterNames": true
+  },
+  "darkness": {
+    "enabled": true,
+    "darkenNights": true,
+    "darkenCaves": true,
+    "lightThreshold": 7,
+    "intensity": 0,
+    "visibilityRadiusChunks": 8,
+    "showSunAndMoon": true
+  },
+  "sins": {
+    "enabled": true,
+    "mobBuffThreshold": 3,
+    "unluckThreshold": 2,
+    "armorWearThreshold": 4,
+    "armorWearIntervalTicks": 600
+  },
+  "eyeOfEnder": {
+    "enabled": true,
+    "endermanDropChance": 0.02
+  }
+}
